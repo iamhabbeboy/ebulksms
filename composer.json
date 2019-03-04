@@ -1,0 +1,25 @@
+{
+    "name": "abiodun/ebulksms-api",
+    "authors": [
+        {
+            "name": "Azeez Abiodun",
+            "email": "iamhabbeboy@gmail.com"
+        }
+    ],
+    "require": {
+    	"guzzlehttp/guzzle": "^6.3",
+        "ddniel16/php-logger": "^2.1",
+        "vlucas/phpdotenv": "^2.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Abiodun\\Ebulksms\\": "src/",
+            "Abiodun\\Ebulksms\\Tests\\": "Tests/"
+        }
+    },
+    "require-dev": {
+        "mockery/mockery": "^1.2",
+        "fzaninotto/faker": "^1.8",
+        "phpunit/phpunit": "^7"
+    }
+}
