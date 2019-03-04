@@ -3,4 +3,7 @@
 vendor/
 composer.lock
 build/
-.env
+
+# Rocketeer PHP task runner and deployment package. https://github.com/rocketeers/rocketeer
+.rocketeer/
+
